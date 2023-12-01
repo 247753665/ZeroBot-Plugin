@@ -307,7 +307,7 @@ func init() {
 		if err != nil {
 			panic(err)
 		}
-		logrus.Infoln("[main] 配置文件已经保存到", *save)
+		logrus.Infoln("[main] 配置文件已保存到", *save)
 		os.Exit(0)
 	}
 }
